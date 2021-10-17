@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "86890364-b6ba-4e4b-90f2-d9f9d33de723",
+  "alias": "InstagramFeedWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsTab"],
+
+  // "preconfiguredEntries": [{
+  //   "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+  //   "group": { "default": "Other" },
+  //   "title": { "default": "InstagramFeed" },
+  //   "description": { "default": "InstagramFeed description" },
+  //   "officeFabricIconFontName": "Page",
+  //   "properties": {
+  //     "description": "InstagramFeed"
+  //   }
+  // }]
+  "preconfiguredEntries": [
+    {
+      "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3", //Text,media and content
+      "group": {
+        "default": "arfitect"
+      },
+      "title": {
+        "default": "Arf - Instagram Feed"
+      },
+      "description": {
+        "default": "Embed Instagram account feed on Sharepoint Pages."
+      },
+      "iconImageUrl": "data:image/png;base64,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",
+      "properties": {
+        "username": "arfitect",
+        "showAlias": true
+      }
+    }
+  ]
+}
