@@ -2,7 +2,8 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+You can show Instagram posts in sharepoint webpart using swiper slider. To do this, you first need to create a token. Please click to read my medium article about it.
+
 
 [picture of the solution in action, if possible]
 
